@@ -82,7 +82,7 @@ The dataset covers one year of e-commerce transactions and includes:
 ## Author
 
 Nazreen Agos Bin Abdul Latiff  
-GitHub: [nazreeninsight](https://github.com/nazreeninsight)
+GitHub: [nazreeninsights](https://github.com/nazreeninsights)
 
 ---
 

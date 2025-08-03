@@ -61,7 +61,7 @@ ggplot(df, aes(x = Gender, y = AnnualIncome)) +
   labs(
     title = "Annual Income by Gender",
     x = "Gender",
-    y = "Annual Income (USD)"
+    y = "Annual Income (RM)"
   ) +
   theme_minimal()
 
@@ -124,7 +124,7 @@ library(ggplot2)
 ggplot(df, aes(x = AnnualIncome, y = SpendingScore, color = Cluster)) +
   geom_point(size = 3, alpha = 0.7) +
   labs(title = "Customer Segmentation using K-Means",
-       x = "Annual Income (USD)",
+       x = "Annual Income (RM)",
        y = "Spending Score") +
   theme_minimal()
 
@@ -179,4 +179,5 @@ str(df$SpendingScore)
 df$SpendingScore <- as.numeric(df$SpendingScore)
 
 t_test_result <- t.test(SpendingScore ~ Gender, data = df)
+
 print(t_test_result)
